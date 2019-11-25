@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DF0F318238BB36C00754BBB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B97B49CB216C6C6800B2235B /* Localizable.strings */; };
 		362967782294C23700B9FC4A /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362967772294C23700B9FC4A /* CGImagePropertyOrientation.swift */; };
 		74E27858215446C900361812 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E27850215446C200361812 /* FBSnapshotTestCase.framework */; };
 		74F7D034211ACBD90046AF7E /* CIRectangleDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D033211ACBD90046AF7E /* CIRectangleDetectorTests.swift */; };
@@ -185,6 +186,7 @@
 
 /* Begin PBXFileReference section */
 		274DF35922D363BC0095CE49 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2D82D1B5238BB1060021BDDA /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		362967772294C23700B9FC4A /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
 		4A644E2221A73C2B00B20839 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		74E27848215446C200361812 /* FBSnapshotTestCase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FBSnapshotTestCase.xcodeproj; path = "Submodules/ios-snapshot-test-case/FBSnapshotTestCase.xcodeproj"; sourceTree = "<group>"; };
@@ -395,8 +397,8 @@
 				A1DF90F720371A0800841A11 /* Common */,
 				B94FBB9D2178647B001ED1B4 /* Assets */,
 				A1D4BCEF202C4F4100FCDDEC /* WeScan.h */,
-				A1D4BCF0202C4F4100FCDDEC /* Info.plist */,
 				B97B49CB216C6C6800B2235B /* Localizable.strings */,
+				A1D4BCF0202C4F4100FCDDEC /* Info.plist */,
 			);
 			path = WeScan;
 			sourceTree = "<group>";
@@ -664,6 +666,7 @@
 				de,
 				"pt-BR",
 				hu,
+				vi,
 			);
 			mainGroup = A1D4BCAE202C4F3800FCDDEC;
 			productRefGroup = A1D4BCB8202C4F3800FCDDEC /* Products */;
@@ -751,6 +754,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF0F318238BB36C00754BBB /* Localizable.strings in Resources */,
 				A1D4BCC5202C4F3800FCDDEC /* LaunchScreen.storyboard in Resources */,
 				A1D4BCC2202C4F3800FCDDEC /* Assets.xcassets in Resources */,
 				A1D4BCC0202C4F3800FCDDEC /* Main.storyboard in Resources */,
@@ -914,6 +918,7 @@
 				9541C84122155DD3005FBCD3 /* de */,
 				82A414A022B9391B00DF5831 /* pt-BR */,
 				274DF35922D363BC0095CE49 /* hu */,
+				2D82D1B5238BB1060021BDDA /* vi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1040,11 +1045,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7P4LQNMZS5;
+				DEVELOPMENT_TEAM = 8U766449Z7;
 				INFOPLIST_FILE = WeScanSampleProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.WeTransfer.WeScanSampleProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quangnn.WeScanSampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1057,11 +1062,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7P4LQNMZS5;
+				DEVELOPMENT_TEAM = 8U766449Z7;
 				INFOPLIST_FILE = WeScanSampleProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.WeTransfer.WeScanSampleProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quangnn.WeScanSampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1168,7 +1173,7 @@
 				A1D4BCDE202C4F3800FCDDEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A1D4BCDF202C4F3800FCDDEC /* Build configuration list for PBXNativeTarget "WeScanSampleProject" */ = {
 			isa = XCConfigurationList;
@@ -1177,7 +1182,7 @@
 				A1D4BCE1202C4F3800FCDDEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A1D4BD04202C4F4100FCDDEC /* Build configuration list for PBXNativeTarget "WeScan" */ = {
 			isa = XCConfigurationList;
@@ -1186,7 +1191,7 @@
 				A1D4BD06202C4F4100FCDDEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A1D4BD08202C4F4100FCDDEC /* Build configuration list for PBXNativeTarget "WeScanTests" */ = {
 			isa = XCConfigurationList;
@@ -1195,7 +1200,7 @@
 				A1D4BD0A202C4F4100FCDDEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
